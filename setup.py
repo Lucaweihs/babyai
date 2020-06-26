@@ -8,7 +8,7 @@ setup(
     packages=['babyai', 'babyai.levels', 'babyai.utils'],
     install_requires=[
         'gym>=0.9.6',
-        'numpy>=1.17.3',
+        'numpy>=1.15',
         "torch>=0.4.1",
         'blosc>=1.5.1',
         'gym_minigrid @ https://github.com/maximecb/gym-minigrid/archive/master.zip'
