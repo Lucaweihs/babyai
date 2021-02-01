@@ -5,12 +5,12 @@ setup(
     version='0.1.0',
     license='BSD 3-clause',
     keywords='memory, environment, agent, rl, openaigym, openai-gym, gym',
-    packages=['babyai', 'babyai.levels', 'babyai.utils'],
+    packages=['babyai', 'babyai.*'],
     install_requires=[
-        'gym>=0.9.6',
-        'numpy>=1.15',
+        "gym>=0.9.6",
+        "numpy>=1.15",
         "torch>=0.4.1",
-        'blosc>=1.5.1',
-        'gym_minigrid @ https://github.com/maximecb/gym-minigrid/archive/master.zip'
+        "blosc>=1.5.1",
+        "gym-minigrid>=1.0.1"
     ],
 )
